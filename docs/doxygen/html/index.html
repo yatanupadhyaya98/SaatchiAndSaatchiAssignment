@@ -107,9 +107,10 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md_readme"></a></p>
-<p><b>Full Technical Documentation (Doxygen)</b> <br  />
- <a href="docs/doxygen/html/index.html">Open the Doxygen Documentation</a></p>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md1"></a>
+The complete technical documentation for this project is generated using <b>Doxygen</b> and is available online:</h1>
+<p><b><a href="https://yatanupadhyaya98.github.io/SaatchiAndSaatchiAssignment/doxygen/html/index.html">View the Documentation</a></b></p>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md2"></a>
 Overview</h1>
 <p>This project demonstrates a <b>lightweight, explainable social listening analysis pipeline</b> designed to support <b>strategic and creative decision-making</b> in a marketing or agency context.</p>
 <p>Using <b>synthetic social media comments and interactions</b>, the pipeline shows how a Creative Data / Strategy team could:</p>
@@ -121,28 +122,28 @@ Overview</h1>
 </ul>
 <p>The focus is <b>methodology and insight generation</b>, not production-scale data engineering.</p>
 <hr  />
-<h1 class="doxsection"><a class="anchor" id="autotoc_md3"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md4"></a>
 What the Pipeline Does</h1>
 <p>This pipeline simulates a real-world social listening and insight extraction workflow used in marketing and brand strategy. It transforms unstructured social media conversations into structured, ranked themes that highlight what consumers positively and negatively associate with each brand.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md4"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md5"></a>
 Generates synthetic social media mentions</h2>
 <p>Simulates realistic user comments for two brands across social platforms, including engagement signals such as likes, replies, and shares. This mirrors the structure of data obtained from commercial social listening tools.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md5"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md6"></a>
 Cleans and normalizes text</h2>
 <p>Standardizes raw text by lowercasing, removing emojis, URLs, punctuation, and formatting noise to ensure consistent and machine-readable input.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md6"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md7"></a>
 Performs sentiment analysis</h2>
 <p>Assigns each mention a sentiment polarity (positive, negative, neutral) along with a sentiment intensity score to capture emotional strength.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md7"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md8"></a>
 Converts text into semantic embeddings</h2>
 <p>Transforms each mention into a numerical representation that captures meaning and context, enabling comparison based on semantic similarity rather than keywords.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md8"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md9"></a>
 Clusters mentions into semantic themes</h2>
 <p>Groups mentions into themes based on similarity of meaning, allowing differently worded opinions about the same topic to be clustered together.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md9"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md10"></a>
 Automatically labels themes using TF-IDF</h2>
 <p>Extracts the most distinctive keywords per cluster to generate human-readable theme labels.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md10"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md11"></a>
 Ranks themes by impact using a combination of</h2>
 <ul>
 <li>Volume (number of mentions)</li>
@@ -150,12 +151,12 @@ Ranks themes by impact using a combination of</h2>
 <li>Sentiment intensity</li>
 </ul>
 <p>Outputs top positive and negative themes per brand Produces a ranked list of the most impactful positive and negative themes for each brand, enabling quick comparison and insight generation.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md11"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md12"></a>
 How the Pipeline Works</h1>
 <p>This project simulates a real-world <b>social listening and insight extraction pipeline</b> used in marketing, strategy, and creative analytics. The goal is to transform large volumes of unstructured social media conversations into <b>clear, ranked themes</b> that reveal what people genuinely like or dislike about each brand.</p>
 <p>Rather than relying on keywords alone, the pipeline focuses on <b>meaning</b>, <b>emotion</b>, and <b>engagement</b>.</p>
 <hr  />
-<h2 class="doxsection"><a class="anchor" id="autotoc_md13"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md14"></a>
 1. Synthetic Social Media Data Generation</h2>
 <p>The pipeline begins by generating <b>synthetic but realistic social media mentions</b> for two competing brands. Each mention represents a user post or comment and includes:</p>
 <ul>
@@ -164,9 +165,9 @@ How the Pipeline Works</h1>
 <li>Engagement signals (likes, replies, shares)</li>
 </ul>
 <p>This step mimics the structure of real social listening data when direct access to platforms or paid tools (e.g. Brandwatch, Talkwalker) is not available. The purpose is to test <b>methodology and logic</b>, not to claim real-world truth. </p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md14"></a>
-ß</h2>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md15"></a>
+ß</h2>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md16"></a>
 2. Text Cleaning and Normalization</h2>
 <p>Raw social media text is noisy and inconsistent. Before analysis, each mention is cleaned to ensure consistency and machine readability.</p>
 <p>This includes:</p>
@@ -177,7 +178,7 @@ How the Pipeline Works</h1>
 </ul>
 <p>This step ensures that different ways of writing the same idea (e.g. “FAST delivery!!!” vs “fast delivery”) are treated as the <b>same signal</b>, not separate ones.</p>
 <hr  />
-<h2 class="doxsection"><a class="anchor" id="autotoc_md17"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md18"></a>
 3. Sentiment Analysis</h2>
 <p>Each cleaned mention is analyzed to determine <b>emotional polarity and intensity</b>.</p>
 <p>The model assigns:</p>
@@ -192,7 +193,7 @@ How the Pipeline Works</h1>
 </ul>
 <p>Sentiment intensity becomes a key input when ranking themes later.</p>
 <hr  />
-<h2 class="doxsection"><a class="anchor" id="autotoc_md19"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md20"></a>
 4. Semantic Embedding of Text</h2>
 <p>To understand meaning rather than keywords, each mention is converted into a <b>semantic embedding</b>.</p>
 <p>A semantic embedding represents a sentence as a numerical vector that captures:</p>
@@ -205,7 +206,7 @@ How the Pipeline Works</h1>
 <p>This allows the system to recognize that differently worded sentences such as “Shipping arrived the next day” and “Delivery was insanely fast” are semantically similar, even though they share few words.</p>
 <p>This step is the foundation for meaning-based clustering.</p>
 <hr  />
-<h2 class="doxsection"><a class="anchor" id="autotoc_md21"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md22"></a>
 5. Theme Clustering Based on Meaning</h2>
 <p>Using semantic embeddings, the pipeline groups mentions into <b>themes</b> based on similarity of meaning.</p>
 <p>Instead of clustering by keywords, it clusters by:</p>
@@ -223,13 +224,13 @@ How the Pipeline Works</h1>
 </ul>
 <p>Each cluster represents a <b>shared conversation topic</b>, not a predefined category.</p>
 <hr  />
-<h2 class="doxsection"><a class="anchor" id="autotoc_md23"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md24"></a>
 6. Automatic Theme Labeling with TF-IDF</h2>
 <p>Once clusters are formed, they are automatically labeled using <b>TF-IDF keyword extraction</b>.</p>
 <p>This step identifies the most distinctive words within each cluster compared to the rest of the dataset and uses them to generate short, human-readable theme labels (e.g. “Fast Delivery”, “Poor Support”, “Good In-Store Advice”).</p>
 <p>This makes the output interpretable for non-technical stakeholders.</p>
 <hr  />
-<h2 class="doxsection"><a class="anchor" id="autotoc_md25"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md26"></a>
 7. Theme Ranking and Scoring</h2>
 <p>Each theme is ranked using a combination of:</p>
 <ul>
@@ -243,7 +244,7 @@ How the Pipeline Works</h1>
 <li>Small but emotionally intense issues are not ignored</li>
 </ul>
 <hr  />
-<h2 class="doxsection"><a class="anchor" id="autotoc_md27"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md28"></a>
 8. Final Output: Top Positive and Negative Themes per Brand</h2>
 <p>The pipeline outputs:</p>
 <ul>
@@ -253,9 +254,9 @@ How the Pipeline Works</h1>
 </ul>
 <p>The result is a <b>clear, ranked view of what matters most to consumers</b>, suitable for strategic insight, creative briefing, or campaign direction.</p>
 <hr  />
-<h1 class="doxsection"><a class="anchor" id="autotoc_md29"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md30"></a>
 Limitations and Practical Constraints</h1>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md30"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md31"></a>
 Synthetic Data vs. Real Consumer Data</h2>
 <p>This project uses simulated data, which means:</p>
 <ul>
@@ -265,7 +266,7 @@ Synthetic Data vs. Real Consumer Data</h2>
 </ul>
 <p>In real-world applications, insights must be validated using <b>actual consumer-generated content</b>.</p>
 <hr  />
-<h2 class="doxsection"><a class="anchor" id="autotoc_md32"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md33"></a>
 Why Thousands of Data Points Are Necessary</h2>
 <p>Semantic clustering relies on <b>statistical density</b>:</p>
 <ul>
@@ -281,7 +282,7 @@ Why Thousands of Data Points Are Necessary</h2>
 </ul>
 <p>Meaning-based models require <b>scale</b> to be reliable.</p>
 <hr  />
-<h2 class="doxsection"><a class="anchor" id="autotoc_md34"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md35"></a>
 Why Small Datasets Fail for Strategic Insight</h2>
 <p>Small datasets:</p>
 <ul>
@@ -291,7 +292,7 @@ Why Small Datasets Fail for Strategic Insight</h2>
 </ul>
 <p>This is especially risky in marketing and strategy, where decisions impact budgets, messaging, and brand perception.</p>
 <hr  />
-<h2 class="doxsection"><a class="anchor" id="autotoc_md36"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md37"></a>
 Computational Requirements and Hardware Constraints</h2>
 <p>Semantic embeddings and clustering are <b>computationally expensive</b>.</p>
 <p>Challenges on a typical laptop include:</p>
@@ -314,12 +315,12 @@ Computational Requirements and Hardware Constraints</h2>
 <li>Continuous data ingestion and updates</li>
 </ul>
 <hr  />
-<h2 class="doxsection"><a class="anchor" id="autotoc_md38"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md39"></a>
 Summary</h2>
 <p>This pipeline demonstrates how raw social conversations can be transformed into <b>structured, ranked consumer insights</b> using modern NLP techniques. While synthetic data and limited compute impose constraints, the architecture mirrors real-world systems used in professional social listening, brand strategy, and creative analytics.</p>
 <p>The value lies not in the specific outputs, but in the <b>methodology</b>: from signals → meaning → themes → strategic insight.</p>
 <hr  />
-<h2 class="doxsection"><a class="anchor" id="autotoc_md40"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md41"></a>
 Tech stack</h2>
 <ul>
 <li>Python 3.10</li>
@@ -330,9 +331,9 @@ Tech stack</h2>
 </ul>
 <p>The stack is intentionally <b>lean and interpretable</b>, suitable for strategy work and interviews.</p>
 <hr  />
-<h2 class="doxsection"><a class="anchor" id="autotoc_md42"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md43"></a>
 Setup &amp; Installation</h2>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md43"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md44"></a>
 1. Create a virtual environment</h3>
 <p>```bash python3.10 -m venv .venv</p>
 <p>source .venv/bin/activate</p>

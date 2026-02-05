@@ -1,5 +1,5 @@
 """
-@file brand_theme_pipeline.py
+@file consumerInsight.py
 @brief Synthetic brand mention analysis pipeline using sentiment analysis
        and semantic clustering.
 
