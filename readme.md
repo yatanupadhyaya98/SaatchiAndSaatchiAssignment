@@ -1,5 +1,8 @@
 # Social Listening Insight Pipeline (Synthetic Data)
 
+## The complete technical documentation for this project is generated using **Doxygen** and is available online:
+
+**[View the Documentation](https://yatanupadhyaya98.github.io/SaatchiAndSaatchiAssignment/doxygen/html/index.html)**
 
 ## Overview
 
