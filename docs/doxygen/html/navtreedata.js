@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "Brand Theme Pipeline", "index.html", [
+  [ "Consumer Insight Pipeline", "index.html", [
     [ "Social Listening Insight Pipeline (Synthetic Data)", "index.html", "index" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],

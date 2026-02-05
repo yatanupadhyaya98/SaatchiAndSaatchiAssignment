@@ -3,7 +3,7 @@
 # Project related configuration options
 #---------------------------------------------------------------------------
 
-PROJECT_NAME           = "Brand Theme Pipeline"
+PROJECT_NAME           = "Consumer Insight Pipeline"
 PROJECT_BRIEF          = "Synthetic brand mention analysis with sentiment + semantic clustering"
 OUTPUT_DIRECTORY       = docs/doxygen
 CREATE_SUBDIRS         = NO
