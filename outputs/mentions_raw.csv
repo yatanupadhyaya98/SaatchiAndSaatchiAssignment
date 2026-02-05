@@ -1,0 +1,101 @@
+id,platform,brand,text,true_theme,true_polarity,likes,replies,shares
+m_0000,reddit,mediamarkt,A bit more expensive than other online shops for the same product.,slightly_expensive,negative,24,6,3
+m_0001,reddit,mediamarkt,A bit more expensive than other online shops for the same product.,slightly_expensive,negative,39,5,0
+m_0002,reddit,amazon,Refund was delayed and the return instructions were unclear.,exchange_returns_pain,negative,40,11,0
+m_0003,youtube,amazon,Amazing Black Friday deal—cheaper than everywhere else.,good_deals,positive,29,1,0
+m_0004,youtube,mediamarkt,A bit more expensive than other online shops for the same product.,slightly_expensive,negative,21,0,0
+m_0005,instagram,amazon,"Best price I found, the discount was actually worth it.",good_deals,positive,14,0,2
+m_0006,instagram,mediamarkt,"Order arrived late, I expected faster delivery.",slow_delivery,negative,5,0,5
+m_0007,twitter,amazon,"Great value for money, saved a lot on this electronics purchase.",good_deals,positive,18,4,0
+m_0008,instagram,mediamarkt,Delivery took too long during Black November.,slow_delivery,negative,10,7,0
+m_0009,instagram,mediamarkt,"Website said in stock, but the store didn’t have it.",stock_mismatch,negative,23,3,0
+m_0010,twitter,amazon,"Support kept sending me in circles, no clear solution.",bad_customer_service,negative,9,18,1
+m_0011,instagram,amazon,"Exchange was a nightmare, they made it unnecessarily hard.",exchange_returns_pain,negative,3,11,0
+m_0012,youtube,mediamarkt,Great customer service—felt looked after during the purchase.,great_customer_service,positive,24,0,0
+m_0013,youtube,amazon,Delayed again—still waiting for my package.,delivery_issues,negative,20,11,2
+m_0014,reddit,amazon,"Exchange was a nightmare, they made it unnecessarily hard.",exchange_returns_pain,negative,16,5,0
+m_0015,instagram,amazon,"Fast delivery even during Black Friday week, impressive.",fast_delivery,positive,11,1,5
+m_0016,instagram,amazon,"Fast delivery even during Black Friday week, impressive.",fast_delivery,positive,26,0,2
+m_0017,twitter,amazon,"Exchange was a nightmare, they made it unnecessarily hard.",exchange_returns_pain,negative,12,2,3
+m_0018,youtube,mediamarkt,Staff were super helpful and actually listened to what I needed.,great_customer_service,positive,36,9,0
+m_0019,youtube,mediamarkt,Had to wait because the product wasn’t available.,stock_mismatch,negative,13,8,4
+m_0020,twitter,mediamarkt,Paid a bit more but felt confident and satisfied.,value_for_money,positive,15,2,0
+m_0021,reddit,amazon,It was impossible to reach a helpful human agent.,bad_customer_service,negative,1,11,5
+m_0022,instagram,mediamarkt,In-store advice was excellent—made me confident buying.,helped_choose_product,positive,20,10,3
+m_0023,instagram,amazon,Delivery status kept changing and nothing arrived.,delivery_issues,negative,8,9,6
+m_0024,instagram,mediamarkt,Delivery took too long during Black November.,slow_delivery,negative,17,16,0
+m_0025,youtube,amazon,Delivery status kept changing and nothing arrived.,delivery_issues,negative,29,7,0
+m_0026,instagram,mediamarkt,Great customer service—felt looked after during the purchase.,great_customer_service,positive,23,0,1
+m_0027,instagram,mediamarkt,They handled my issue quickly and professionally.,great_customer_service,positive,26,12,0
+m_0028,reddit,mediamarkt,Availability info was confusing and not accurate.,stock_mismatch,negative,6,3,4
+m_0029,youtube,mediamarkt,"Website said in stock, but the store didn’t have it.",stock_mismatch,negative,22,3,3
+m_0030,twitter,amazon,Hard to know which sellers are trustworthy.,marketplace_trust,negative,19,12,0
+m_0031,instagram,mediamarkt,Repair service was smooth and saved me a lot of hassle.,repair_service,positive,17,1,0
+m_0032,twitter,amazon,"Best price I found, the discount was actually worth it.",good_deals,positive,26,5,2
+m_0033,youtube,amazon,It was impossible to reach a helpful human agent.,bad_customer_service,negative,14,0,0
+m_0034,youtube,mediamarkt,Great customer service—felt looked after during the purchase.,great_customer_service,positive,17,0,1
+m_0035,youtube,amazon,"Fast delivery even during Black Friday week, impressive.",fast_delivery,positive,27,15,2
+m_0036,twitter,amazon,"Arrived earlier than expected, delivery was flawless.",fast_delivery,positive,25,3,0
+m_0037,reddit,amazon,"Support kept sending me in circles, no clear solution.",bad_customer_service,negative,17,7,8
+m_0038,reddit,amazon,Got a third-party seller product that felt sketchy.,marketplace_trust,negative,15,8,1
+m_0039,instagram,amazon,Customer service was useless—no real help at all.,bad_customer_service,negative,1,13,3
+m_0040,twitter,amazon,"Best price I found, the discount was actually worth it.",good_deals,positive,33,0,6
+m_0041,reddit,amazon,Buying was quick and simple—no hassle.,easy_ordering,positive,2,7,8
+m_0042,reddit,amazon,Got a third-party seller product that felt sketchy.,marketplace_trust,negative,4,3,1
+m_0043,twitter,amazon,Delayed again—still waiting for my package.,delivery_issues,negative,10,0,1
+m_0044,reddit,amazon,"Support kept sending me in circles, no clear solution.",bad_customer_service,negative,3,9,0
+m_0045,twitter,amazon,Amazing Black Friday deal—cheaper than everywhere else.,good_deals,positive,43,0,1
+m_0046,reddit,mediamarkt,"Good service, but the price wasn’t always the cheapest.",slightly_expensive,negative,29,0,2
+m_0047,youtube,amazon,Delivered the next day—super fast shipping.,fast_delivery,positive,40,0,2
+m_0048,reddit,amazon,Customer service was useless—no real help at all.,bad_customer_service,negative,21,11,0
+m_0049,youtube,mediamarkt,A bit more expensive than other online shops for the same product.,slightly_expensive,negative,0,10,2
+m_0050,instagram,amazon,It was impossible to reach a helpful human agent.,bad_customer_service,negative,21,9,0
+m_0051,instagram,amazon,"Arrived earlier than expected, delivery was flawless.",fast_delivery,positive,25,5,0
+m_0052,reddit,amazon,"Fast delivery even during Black Friday week, impressive.",fast_delivery,positive,48,6,0
+m_0053,reddit,mediamarkt,They helped me decide the right laptop for my budget.,helped_choose_product,positive,31,0,4
+m_0054,reddit,mediamarkt,A bit more expensive than other online shops for the same product.,slightly_expensive,negative,34,2,4
+m_0055,instagram,amazon,Hard to know which sellers are trustworthy.,marketplace_trust,negative,23,11,7
+m_0056,instagram,amazon,Customer service was useless—no real help at all.,bad_customer_service,negative,14,2,0
+m_0057,reddit,amazon,"Support kept sending me in circles, no clear solution.",bad_customer_service,negative,6,6,2
+m_0058,instagram,mediamarkt,Repair service was smooth and saved me a lot of hassle.,repair_service,positive,25,8,2
+m_0059,instagram,amazon,Delayed again—still waiting for my package.,delivery_issues,negative,38,5,9
+m_0060,instagram,mediamarkt,They helped me decide the right laptop for my budget.,helped_choose_product,positive,30,0,0
+m_0061,instagram,mediamarkt,"The staff explained the differences clearly, no pressure.",helped_choose_product,positive,28,2,4
+m_0062,reddit,amazon,Buying was quick and simple—no hassle.,easy_ordering,positive,28,3,0
+m_0063,reddit,mediamarkt,Delivery took too long during Black November.,slow_delivery,negative,0,4,4
+m_0064,reddit,amazon,Ordering was effortless and checkout was smooth.,easy_ordering,positive,24,0,2
+m_0065,youtube,mediamarkt,"Shipping was slower than expected, not ideal.",slow_delivery,negative,23,1,1
+m_0066,twitter,mediamarkt,Delivery took too long during Black November.,slow_delivery,negative,18,0,2
+m_0067,youtube,mediamarkt,"Good service, but the price wasn’t always the cheapest.",slightly_expensive,negative,25,13,4
+m_0068,twitter,mediamarkt,"Website said in stock, but the store didn’t have it.",stock_mismatch,negative,0,1,3
+m_0069,reddit,amazon,"Best price I found, the discount was actually worth it.",good_deals,positive,29,7,13
+m_0070,twitter,amazon,Ordering was effortless and checkout was smooth.,easy_ordering,positive,29,10,4
+m_0071,youtube,amazon,Amazing Black Friday deal—cheaper than everywhere else.,good_deals,positive,31,2,4
+m_0072,instagram,mediamarkt,"The staff explained the differences clearly, no pressure.",helped_choose_product,positive,11,2,0
+m_0073,instagram,mediamarkt,Prices felt slightly higher compared to pure online retailers.,slightly_expensive,negative,19,20,0
+m_0074,instagram,amazon,"Arrived earlier than expected, delivery was flawless.",fast_delivery,positive,31,0,0
+m_0075,instagram,mediamarkt,"Not always the cheapest, but the service made it worth it.",value_for_money,positive,37,4,0
+m_0076,youtube,amazon,Delivered the next day—super fast shipping.,fast_delivery,positive,11,8,0
+m_0077,youtube,amazon,"Great value for money, saved a lot on this electronics purchase.",good_deals,positive,25,4,0
+m_0078,instagram,mediamarkt,Prices felt slightly higher compared to pure online retailers.,slightly_expensive,negative,48,10,0
+m_0079,twitter,amazon,"Fast delivery even during Black Friday week, impressive.",fast_delivery,positive,24,0,4
+m_0080,twitter,amazon,It was impossible to reach a helpful human agent.,bad_customer_service,negative,6,6,3
+m_0081,instagram,mediamarkt,They exchanged the product without making it complicated.,returns_instore_help,positive,34,0,0
+m_0082,twitter,amazon,Return process was confusing and took too long.,exchange_returns_pain,negative,11,3,6
+m_0083,twitter,amazon,Refund was delayed and the return instructions were unclear.,exchange_returns_pain,negative,23,0,4
+m_0084,reddit,amazon,"Fast delivery even during Black Friday week, impressive.",fast_delivery,positive,51,10,0
+m_0085,youtube,amazon,Customer service was useless—no real help at all.,bad_customer_service,negative,11,14,0
+m_0086,reddit,amazon,Delivered the next day—super fast shipping.,fast_delivery,positive,28,8,0
+m_0087,youtube,amazon,Return process was confusing and took too long.,exchange_returns_pain,negative,17,0,0
+m_0088,reddit,amazon,Delayed again—still waiting for my package.,delivery_issues,negative,14,0,6
+m_0089,youtube,mediamarkt,Paid a bit more but felt confident and satisfied.,value_for_money,positive,1,1,2
+m_0090,youtube,amazon,Customer service was useless—no real help at all.,bad_customer_service,negative,38,0,4
+m_0091,instagram,mediamarkt,Availability info was confusing and not accurate.,stock_mismatch,negative,18,1,2
+m_0092,twitter,mediamarkt,Delivery took too long during Black November.,slow_delivery,negative,20,3,1
+m_0093,twitter,mediamarkt,Refund/return handling was straightforward and fair.,returns_instore_help,positive,16,4,3
+m_0094,twitter,amazon,Customer service was useless—no real help at all.,bad_customer_service,negative,40,0,7
+m_0095,youtube,mediamarkt,"The staff explained the differences clearly, no pressure.",helped_choose_product,positive,0,3,3
+m_0096,youtube,amazon,"Fast delivery even during Black Friday week, impressive.",fast_delivery,positive,25,0,1
+m_0097,twitter,amazon,"Arrived earlier than expected, delivery was flawless.",fast_delivery,positive,15,0,4
+m_0098,twitter,amazon,"Fast delivery even during Black Friday week, impressive.",fast_delivery,positive,26,0,4
+m_0099,twitter,amazon,Super convenient to compare options and buy quickly.,easy_ordering,positive,26,8,3

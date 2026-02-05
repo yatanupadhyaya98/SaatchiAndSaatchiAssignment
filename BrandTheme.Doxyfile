@@ -1,0 +1,103 @@
+
+#---------------------------------------------------------------------------
+# Project related configuration options
+#---------------------------------------------------------------------------
+
+PROJECT_NAME           = "Brand Theme Pipeline"
+PROJECT_BRIEF          = "Synthetic brand mention analysis with sentiment + semantic clustering"
+OUTPUT_DIRECTORY       = docs/doxygen
+CREATE_SUBDIRS         = NO
+
+# Use readme.md as the main page (homepage)
+USE_MDFILE_AS_MAINPAGE = readme.md
+
+#---------------------------------------------------------------------------
+# Build related configuration options
+#---------------------------------------------------------------------------
+
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+HIDE_UNDOC_MEMBERS     = NO
+HIDE_UNDOC_CLASSES     = NO
+HIDE_FRIEND_COMPOUNDS  = NO
+
+# If you want only documented items, set this to NO
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+
+#---------------------------------------------------------------------------
+# Input configuration
+#---------------------------------------------------------------------------
+
+# Point this to your source roots
+INPUT                  = .
+FILE_PATTERNS          = *.py *.md
+
+# Include README.md even if it’s outside INPUT paths (safe to keep)
+INPUT_ENCODING         = UTF-8
+RECURSIVE              = YES
+
+# If you have folders you don't want scanned, list them here
+EXCLUDE                =
+EXCLUDE_PATTERNS       = */.venv/* */venv/* */__pycache__/*
+
+#---------------------------------------------------------------------------
+# Markdown / preprocessing
+#---------------------------------------------------------------------------
+
+MARKDOWN_SUPPORT       = YES
+AUTOLINK_SUPPORT       = YES
+BUILTIN_STL_SUPPORT    = YES
+TAB_SIZE               = 4
+
+# Doxygen can run a Markdown processor if available.
+# Leaving it empty uses built-in Markdown.
+MARKDOWN_ID_STYLE      = DOXYGEN
+
+#---------------------------------------------------------------------------
+# Python optimization / parsing
+#---------------------------------------------------------------------------
+
+OPTIMIZE_OUTPUT_JAVA   = NO
+OPTIMIZE_OUTPUT_FOR_C  = NO
+OPTIMIZE_FOR_FORTRAN   = NO
+OPTIMIZE_OUTPUT_VHDL   = NO
+
+#---------------------------------------------------------------------------
+# HTML output
+#---------------------------------------------------------------------------
+
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+HTML_FILE_EXTENSION    = .html
+DISABLE_INDEX          = NO
+GENERATE_TREEVIEW      = YES
+FULL_SIDEBAR           = YES
+HTML_DYNAMIC_MENUS     = YES
+SEARCHENGINE           = YES
+
+# Optional: nicer look if you later add a theme
+# HTML_EXTRA_STYLESHEET  =
+
+#---------------------------------------------------------------------------
+# LaTeX / PDF output (disable unless you need it)
+#---------------------------------------------------------------------------
+
+GENERATE_LATEX         = NO
+
+#---------------------------------------------------------------------------
+# Diagrams (optional)
+#---------------------------------------------------------------------------
+
+HAVE_DOT               = NO
+CALL_GRAPH             = NO
+CALLER_GRAPH           = NO
+UML_LOOK               = YES
+
+#---------------------------------------------------------------------------
+# Quietness
+#---------------------------------------------------------------------------
+
+QUIET                  = NO

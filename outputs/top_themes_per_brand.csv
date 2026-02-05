@@ -1,0 +1,9 @@
+brand,polarity,theme_key,theme_label,n_mentions,avg_sentiment,total_engagement,score
+amazon,negative,amazon_4,"help, useless, real, customer, service, impossible, agent",9,-0.5274333333333333,323,27.440611395114605
+amazon,negative,amazon_3,"delayed, package, waiting, return, process, instructions, unclear",8,-0.279825,317,12.898928225491703
+amazon,positive,amazon_5,"friday, fast, black, week, impressive, delivery, super",15,0.54934,648,53.35821312891338
+amazon,positive,amazon_0,"discount, best, worth, actually, price, quick, simple",6,0.7685666666666666,254,25.552982712143564
+mediamarkt,negative,mediamarkt_0,"accurate, info, availability, confusing, good, earlier, effortless",2,-0.2263,50,1.7795442813710298
+mediamarkt,negative,mediamarkt_3,"november, took, long, delivery, black, expected, shipping",1,-0.4168,28,1.4034889019383625
+mediamarkt,positive,mediamarkt_1,"service, felt, cheapest, confident, looked, great, purchase",12,0.5280583333333334,389,37.8056820418051
+mediamarkt,positive,mediamarkt_4,"staff, explained, differences, clearly, pressure, helpful, super",4,0.609625,128,11.850652548035937
